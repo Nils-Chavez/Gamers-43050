@@ -452,12 +452,13 @@ footer{
         margin: 5px;
     }
 }
-.row h2{
-    font-size: 35px;
-    border: 2px white solid;
-    display: inline-block;
+.g-3 h2{
+    text-align: center;
+    background-color: black;
+    color: white;
     padding: 10px;
-    background-color: aquamarine;
+    margin-top: 50px;
+    text-transform: uppercase;
 }
 .ubicacion{
     margin-top: 50px;
