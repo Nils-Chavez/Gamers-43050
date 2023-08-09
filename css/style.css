@@ -110,7 +110,15 @@ header nav ul li a{
     font-family: 'VT323', monospace;
     font-size: 60px;
 }
-
+.rankeados h2{
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px black solid;
+}
 .M{
     color: RED;
 }
@@ -515,7 +523,19 @@ footer{
         display: inline-block;
     }
 }
-
+@media screen and (max-width: 480px){
+    .rankeados h2{
+        font-family: 'VT323', monospace;
+        font-size: 34px;
+        border: black solid;
+        background-color: bisque;
+}
+}
+@media screen and (max-width: 513px){
+    .rankeados h2{
+        background-color: bisque;
+}
+}
 .Fedeados a:hover{
     background-color: yellow;
     color: black;
