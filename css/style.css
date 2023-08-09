@@ -494,6 +494,7 @@ footer{
     }
 }
 
+
 @media screen and (max-width: 940px){
     .bienvenidos img{
         width: 300px;
@@ -509,10 +510,7 @@ footer{
     }
 }
 @media screen and (max-width: 583px){
-    .bienvenidos img{
-        width: 100px;
-        height: 300px;
-    }
+  
     .bienvenidos h2{
         font-family: 'VT323', monospace;
         font-size: 24px;
@@ -529,14 +527,18 @@ footer{
         height: 200x;
     }
 }
-
+@media screen and (max-width: 600px){
+    .bienvenidos img{
+        display: none;
+    }
+}
 @media screen and (max-width: 730px){
     .bienvenidos{
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 762px){
     .bienvenidos div p{
         font-size: 12px;
         margin: 10px;    }
