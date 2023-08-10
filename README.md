@@ -1,4 +1,4 @@
-<h3 align="center">Hola, Entrego mi segundo pre entrega del proyecto final, el cual contiene 5html asi como tambien use ccms, flexbox, bootstrap, asi como tambien es una web responsive.</h3>
+<h3 align="center">Preentrega2+Chavez Paredes. Hola, Entrego mi segundo pre entrega del proyecto final, el cual contiene 5html asi como tambien use ccms, flexbox, bootstrap, asi como tambien es una web responsive.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
