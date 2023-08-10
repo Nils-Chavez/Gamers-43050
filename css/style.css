@@ -452,7 +452,7 @@ footer{
         margin: 5px;
     }
 }
-.g-3 h2{
+.datos1 h2{
     text-align: center;
     background-color: black;
     color: white;
@@ -470,7 +470,7 @@ footer{
 
 }
 @media screen and (max-width: 650px){
-    .g-3 h2{
+    .datos1 h2{
         font-size: 20px;
         background-color: bisque;
     }
