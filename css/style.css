@@ -387,6 +387,7 @@ footer{
 .form-floating{
     border: 2px black solid;
 }
+
 @media screen and (max-width: 605px){
     .ingresar1{
         background-color: azure;
@@ -543,15 +544,15 @@ footer{
         margin: 10px;    }
 }
 
-@media screen and (max-width: 391px){
-    .fin div{
-        width: 20px;
-        height: 20px;
+@media screen and (max-width: 392px){
+    .fin img{
+        height: 40px;
         color: white;
         margin: 10px;
         display: inline-block;
     }
 }
+
 @media screen and (max-width: 480px){
     .rankeados h2{
         font-family: 'VT323', monospace;
@@ -568,4 +569,10 @@ footer{
 .Fedeados a:hover{
     background-color: yellow;
     color: black;
+}
+@media screen and (max-width: 410px){
+    .gps iframe{ 
+        width: 100%;
+        height: 50%;
+    }
 }
