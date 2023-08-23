@@ -177,15 +177,7 @@
         grid-row: span 1;
     }
 }
-@media screen and (max-width:400px){
-    .grid-servicios{
-        grid-template-columns: 1fr;
-    }
-    .grid-item{
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-}
+
 @media screen and (max-width: 940px){
     .Fedeados h2{
          font-size: 35px;
