@@ -1,0 +1,124 @@
+.ProductosPage-juegos{
+    h2{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    .grid-ProductosPage-juegos{
+        width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        gap: 15px;
+        div{
+            margin: 5px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            -moz-box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            } 
+        }
+        .grid-item-ProductosPagejuegos{
+            position: relative;
+            img{
+            }
+            h3{
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: black;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.Accesorios{
+    background-color:antiquewhite;
+    margin: 50px;
+    border: 10px solid black;
+    h2{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-top: 0px;
+        text-transform: uppercase;
+    }
+    .grid-Accesorios{
+        width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        gap: 15px;
+        div{
+            margin: 5px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            -moz-box-shadow: 10px 10px 10px 0px rgba(244,0,0,0.75);
+            }
+        }
+        .grid-itemAccesorios{
+            position: relative;
+            img{
+                
+            }
+            h3{
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: black;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+.Fifa{
+    grid-column: span 2;
+}
+.Batman{
+    grid-row: span 2;
+}
+.GTA{
+    grid-column: span 2;
+}
+.Mouse{
+    grid-row: span 2;
+}
+.Sillas{
+    grid-column: span 2;
+}
+
+@media screen and (max-width:680px){
+    .grid-Accesorios{
+        grid-template-columns: 1fr;
+    }
+    .grid-itemAccesorios{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:680px){
+    .grid-ProductosPage-juegos{
+        grid-template-columns: 1fr;
+    }
+    .grid-item-ProductosPagejuegos{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}

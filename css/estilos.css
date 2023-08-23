@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.M {
+  color: RED; }
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10; }
+  .whatsapp div img {
+    width: 40px;
+    height: 40px; }
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    position: static; } }
+
+@media screen and (max-width: 465px) {
+  header {
+    flex-direction: row; }
+  header nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header nav ul li {
+    margin: 5px; } }
+
+header {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 10; }
+  header h1 {
+    font-size: 45px;
+    font-family: 'VT323', monospace;
+    font-weight: 900; }
+    header h1 span {
+      color: red; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+    header nav ul li {
+      margin: 20px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white; }
+
+.Fedeados {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .Fedeados h2 {
+    font-size: 75px;
+    border: 4px white solid;
+    display: inline-block;
+    padding: 20px; }
+  .Fedeados p {
+    font-size: 30px;
+    padding: 20px; }
+  .Fedeados a {
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 8px; }
+    .Fedeados a:hover {
+      background-color: yellow;
+      color: black; }
+
+.bienvenidos {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bienvenidos div {
+    width: 50%;
+    margin: 50; }
+    .bienvenidos div h2 {
+      font-size: 42px; }
+      .bienvenidos div h2 span {
+        font-family: 'VT323', monospace;
+        font-size: 60px; }
+    .bienvenidos div p {
+      font-size: 20px; }
+  .bienvenidos img {
+    width: 600px;
+    height: 600px; }
+
+.Productos h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  text-transform: uppercase; }
+
+.Productos div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .Productos div div {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75); }
+    .Productos div div img {
+      width: 250px;
+      height: 200px; }
+    .Productos div div h3 {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 20px; }
+    .Productos div div a {
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      font-size: 20px;
+      font-weight: 900; }
+
+.servicios {
+  background-color: antiquewhite;
+  margin: 50px;
+  border: 10px solid black; }
+  .servicios h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    text-transform: uppercase; }
+  .servicios .grid-servicios {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px; }
+    .servicios .grid-servicios div {
+      margin: 5px; }
+    .servicios .grid-servicios .grid-item {
+      position: relative; }
+      .servicios .grid-servicios .grid-item img {
+        width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75); }
+      .servicios .grid-servicios .grid-item h3 {
+        position: absolute;
+        bottom: 0;
+        color: white;
+        background-color: black;
+        width: 100%;
+        text-align: center; }
+
+.asesoria {
+  grid-row: span 2; }
+
+.delivery {
+  grid-column: span 2; }
+
+.ventapormayor {
+  grid-column: span 2; }
+
+@media screen and (max-width: 950px) {
+  .grid-servicios {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 400px) {
+  .grid-servicios {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 940px) {
+  .Fedeados h2 {
+    font-size: 35px;
+    border: 2px white solid;
+    display: inline-block;
+    padding: 10px; }
+  .Fedeados p {
+    font-size: 15px;
+    padding: 10px; } }
+
+@media screen and (max-width: 940px) {
+  .bienvenidos img {
+    width: 300px;
+    height: 500px; }
+  .bienvenidos h2 {
+    font-family: 'VT323', monospace;
+    font-size: 34px; }
+  .bienvenidos div p {
+    font-size: 22px;
+    margin: 20px; } }
+
+@media screen and (max-width: 583px) {
+  .bienvenidos h2 {
+    font-family: 'VT323', monospace;
+    font-size: 24px; }
+  .bienvenidos div p {
+    font-size: 12px;
+    margin: 10px; } }
+
+@media screen and (max-width: 600px) {
+  .bienvenidos img {
+    width: 300px;
+    height: 200x; } }
+
+@media screen and (max-width: 600px) {
+  .bienvenidos img {
+    display: none; } }
+
+@media screen and (max-width: 730px) {
+  .bienvenidos {
+    flex-direction: column; } }
+
+@media screen and (max-width: 762px) {
+  .bienvenidos div p {
+    font-size: 12px;
+    margin: 10px; } }
+
+footer {
+  background-color: #646366;
+  color: white;
+  margin-top: 20px; }
+
+.fin h2 {
+  font-size: 45px;
+  font-family: 'VT323', monospace;
+  font-weight: 900; }
+
+.fin div {
+  width: 60px;
+  height: 60px;
+  color: white;
+  margin: 20px;
+  display: inline-block; }
+
+.fin img {
+  width: 40px;
+  height: 40px; }
+
+@media screen and (max-width: 392px) {
+  .fin img {
+    height: 40px;
+    color: white;
+    margin: 10px;
+    display: inline-block; } }
+
+.ProductosPage-juegos h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  text-transform: uppercase; }
+
+.ProductosPage-juegos .grid-ProductosPage-juegos {
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  .ProductosPage-juegos .grid-ProductosPage-juegos div {
+    margin: 5px; }
+    .ProductosPage-juegos .grid-ProductosPage-juegos div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+      -webkit-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75); }
+  .ProductosPage-juegos .grid-ProductosPage-juegos .grid-item-ProductosPagejuegos {
+    position: relative; }
+    .ProductosPage-juegos .grid-ProductosPage-juegos .grid-item-ProductosPagejuegos h3 {
+      position: absolute;
+      bottom: 0;
+      color: white;
+      background-color: black;
+      width: 100%;
+      text-align: center; }
+
+.Accesorios {
+  background-color: antiquewhite;
+  margin: 50px;
+  border: 10px solid black; }
+  .Accesorios h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    text-transform: uppercase; }
+  .Accesorios .grid-Accesorios {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px; }
+    .Accesorios .grid-Accesorios div {
+      margin: 5px; }
+      .Accesorios .grid-Accesorios div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 10px 0px rgba(244, 0, 0, 0.75); }
+    .Accesorios .grid-Accesorios .grid-itemAccesorios {
+      position: relative; }
+      .Accesorios .grid-Accesorios .grid-itemAccesorios h3 {
+        position: absolute;
+        bottom: 0;
+        color: white;
+        background-color: black;
+        width: 100%;
+        text-align: center; }
+
+.Fifa {
+  grid-column: span 2; }
+
+.Batman {
+  grid-row: span 2; }
+
+.GTA {
+  grid-column: span 2; }
+
+.Mouse {
+  grid-row: span 2; }
+
+.Sillas {
+  grid-column: span 2; }
+
+@media screen and (max-width: 680px) {
+  .grid-Accesorios {
+    grid-template-columns: 1fr; }
+  .grid-itemAccesorios {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 680px) {
+  .grid-ProductosPage-juegos {
+    grid-template-columns: 1fr; }
+  .grid-item-ProductosPagejuegos {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 480px) {
+  .rankeados h2 {
+    font-family: 'VT323', monospace;
+    font-size: 34px;
+    border: black solid;
+    background-color: bisque; } }
+
+@media screen and (max-width: 719px) {
+  .rankeados h2 {
+    background-color: bisque; } }
